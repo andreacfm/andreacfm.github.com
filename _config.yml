@@ -2,11 +2,11 @@
 
 paginate: 10 # pagination based on number of posts
 paginate_path: "page:num"
-exclude: ["README.md"] # files to exclude
+exclude: ["README.md","s3_website.yml"] # files to exclude
 highlighter: pygments
 markdown: kramdown
-disqus: dbyll
-google_analytics: dbyll
+disqus: andreacfm
+#google_analytics: dbyll
 gems: [jekyll-paginate]
 
 defaults:
@@ -14,18 +14,17 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: dbyll
+      title: Andrea's blog
 
-description: Stylish Jekyll Theme
+description: Just my blog
 author:
-  name: dbyll
-  email: dbyll@ismaildemirbilek.com
-  github: dbtek
-  twitter: dbtek
-  pinterest: asd123
-  linkedin: asd123
-  bio: Your stylish, minimalist theme!
-  email_md5: 726351295ec82e145928582f595aa3aa
+  name: andreacfm
+  email: acampolnghi@gmail.com
+  github: andreacfm
+  twitter: ACampolonghi
+  linkedin: andreacampolonghi
+  #bio: Your stylish, minimalist theme!
+  email_md5: fe88efa62f2b20bdeb8689626d375f1e
 
 rss_path: feed.xml
 categories_path: categories.html
