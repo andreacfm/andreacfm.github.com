@@ -37,7 +37,7 @@ a.nav-link i{
 a.nav-link:hover { color: #777 }
 
 #bio {
-	font-family: "Courier New", Courier, monospace;
+	font-family: Monaco, "Courier New", monospace;
 	font-size: 11px;
 	margin: 0 auto;
 	margin-bottom: 10px;
@@ -181,5 +181,10 @@ footer {
 
 ul.dropdown-menu>li>a>i.fa {
     width: 1.3em;
+}
+
+body{
+	font-family: Monaco, "Courier New", monospace;
+	font-size: 13px !important;
 }
 
